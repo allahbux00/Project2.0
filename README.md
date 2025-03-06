@@ -1,2 +1,3 @@
-# Project2.0
-Idk maybe a good ai
+# Streamlit RAG App
+
+Setup instructions here...
