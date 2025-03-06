@@ -3,7 +3,7 @@ import streamlit as st
 from utils import process_document, process_image  
 from faiss_index import search_documents  
   
-st.set_page_config(page_title="RAG AI App", layout="wide", theme="dark")  
+st.set_page_config(page_title="RAG AI App", layout="wide")  
 
 st.sidebar.title("AI Options")  
 app_mode = st.sidebar.radio("Choose AI Type", ["Document Q&A", "Image Analysis", "Generative AI"])  
